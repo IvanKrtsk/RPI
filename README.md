@@ -1,2 +1,2 @@
-# RPI_1lab
+# RPIlab
 This repository holds the first lab's
