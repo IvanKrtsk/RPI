@@ -1,2 +1,2 @@
 # RPIlab
-This repository holds the first lab's
+This repository holds the RPI lab's
