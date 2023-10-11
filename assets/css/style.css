@@ -6,6 +6,7 @@ body {
     color: #ffffff;
 }
 
+/*Header*/
 .header{
     width: 100%;
     position: absolute;
@@ -20,12 +21,6 @@ body {
     justify-content: space-between;
 }
 
-*,
-*:before,
-*:after{
-    box-sizing: border-box;
-}
-
 .container{
     width: 100%;
     max-width: 1500px;
@@ -38,6 +33,7 @@ body {
     background-color: #0e1a35;
 }
 
+/*Navigation*/
 .navigation{
     font-size: 18px;
 }
@@ -48,4 +44,14 @@ body {
     display: inline-block;
     margin: 0px 25px;
     vertical-align: top;
+}
+
+.navigation_link:hover{
+    color: cornflowerblue;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
 }
