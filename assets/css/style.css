@@ -1,8 +1,4 @@
 body {
-    font-family: 'Roboto', sans-serif;
-}
-
-body {
     margin: 0;
     width: 2000px;
     height: 5700px;
@@ -38,7 +34,7 @@ body {
     background-color: #0e1a35;
 }
 
-/*Navigation*/
+/*Navigation header*/
 .navigation{
     font-size: 18px;
 }
@@ -62,6 +58,7 @@ body {
     box-sizing: border-box;
 }
 
+/*Footer*/
 .footer{
     width: 2000px;
     position: absolute;
@@ -85,6 +82,7 @@ body {
     margin: 0 auto;
 }
 
+/*Navigation footer*/
 .navigate{
     font-size: 18px;
 }
