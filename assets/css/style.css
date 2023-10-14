@@ -22,19 +22,37 @@ body {
     justify-content: space-between;
 }
 
-.h_logo{
-    background-image: url("assets/images/Logo.jpg");
-}
 .container{
     width: 100%;
-    max-width: 1500px;
+    max-width: 1690px;
     margin: 0 auto;
 }
 
+/*Intro*/
 .intro{
     width: 100%;
     height: 1100px;
     background-color: #0e1a35;
+}
+
+.intro_inner{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro_title{
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.intro_subtitle{
+    font-size: 36px;
+    text-align: center;
 }
 
 /*Navigation header*/
@@ -46,7 +64,7 @@ body {
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
-    margin: 0px 25px;
+    margin: 13px 25px;
     vertical-align: top;
     align-items: center;
 }
@@ -55,10 +73,31 @@ body {
     color: cornflowerblue;
 }
 
+/*Buttons*/
+.login_button{
+    display: inline-block;
+    font-size: 18px;
+    color: #5584ff;
+    background-color: #0e1a35;
+    border-color: #5584ff;
+    width: 130px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.login_button:hover{
+    color: white;
+    border-color: white;
+}
+
 *,
 *:before,
 *:after{
     box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin : 0;
 }
 
 /*Footer*/
@@ -101,10 +140,4 @@ body {
 
 .nav_link:hover{
     color: white;
-}
-
-*,
-*:before,
-*:after{
-    box-sizing: border-box;
 }
