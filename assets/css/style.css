@@ -72,6 +72,7 @@ h1,h2,h3,h4,h5,h6{
     border-color: #5584ff;
     width: 130px;
     height: 50px;
+    border-style: solid;
     border-radius: 40px;
     transition: background .3s linear, color .3s;
 }
@@ -118,6 +119,7 @@ h1,h2,h3,h4,h5,h6{
     background-color: #5584ff;
     color: white;
     font-size: 18px;
+    border-style: solid;
     border-radius: 40px;
     transition: background .2s linear, color .2s;
 }
@@ -128,28 +130,84 @@ h1,h2,h3,h4,h5,h6{
     border-color: cornflowerblue;
 }
 
-.screen_container{
+.screen1_container{
     width: 900px;
     height: 490px;
     margin: 0 auto;
-    align-items: center;
     /*box-shadow: -10px 0px 50px rgb(85, 132, 255);*/
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*Second slide*/
+/*Image*/
 .second_slide{
     width: 100%;
     height: 630px;
+    top: 0;
     background-color: white;
 }
 
-screen2{
-    top: 0;
-    align-content: center;
+.screen2_container{
+    width: 900px;
+    height: 130px;
+    margin: 0 auto;
 }
 
+/*Title*/
+.second_title{
+    font-size: 24px;
+    color: #0e1a35;
+}
+
+.second_title_container{
+    margin: 0 auto;
+    width: 1255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Second subtitle*/
+.second_subtitle{
+    font-size: 18px;
+    color: #8492af;
+}
+
+.subtitle_align{
+    text-align: center;
+}
+
+.second_subtitle_container{
+    margin: 0 auto;
+    width: 1355px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Second buttons*/
+.second_buttons_container{
+    margin: 0 auto;
+    width: 1245px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.see_more_button{
+    font-size: 18px;
+    color: #0e1a35;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border-color: #dadee7;
+    border-style: solid;
+    border-radius: 60px;
+    transition: background .4s linear, color .4s;
+}
+
+.see_more_button:hover{
+    color: cornflowerblue;
+    border-color: cornflowerblue;
+}
 /*Footer*/
 .footer{
     width: 2000px;
