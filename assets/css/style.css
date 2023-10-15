@@ -263,17 +263,8 @@ h1,h2,h3,h4,h5,h6{
     background-color: #fafbfb;
 }
 
-.pricing_container {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    width: 1360px;
-    height: 425px;
-    background-color: #fafbfb;
-
-}
-
 .check_price {
+    padding-top: 200px;
     color: #000000;
     font-size: 60px;
     font-weight: 300;
@@ -281,32 +272,53 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
 
-.rec1 {
-    #rectangle1 {
-        width: 360px;
-        height: 425px;
-        background: #ffff;
-        vertical-align: center;
-        align-items: center;
-    }
+.pricing_container {
+    display: flex;
+    margin: 0 auto;
+    left: 16%;
+    padding-top: 100px;
+    justify-content: space-between;
+    width: 1360px;
+    height: 425px;
+    background-color: #fafbfb;
 }
 
-.rec2 {
-    #rectangle2 {
-        width: 360px;
-        height: 425px;
-        background: #ffff;
-        vertical-align: center;
-        align-items: center;
-    }
+.bronze_plan {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
-.rec3 {
-    #rectangle3 {
-        width: 360px;
-        height: 425px;
-        background: #ffff;
-        vertical-align: center;
-        align-items: center;
-    }
+.bmonth_price {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#rectangle1 {
+    width: 360px;
+    height: 425px;
+    background: #ffff;
+    color: #000000;
+    text-align: center;
+}
+
+#rectangle2 {
+    width: 360px;
+    height: 425px;
+    background: #ffff;
+    color: #000000;
+    text-align: center;
+}
+
+#rectangle3 {
+    width: 360px;
+    height: 425px;
+    background: #ffff;
+    color: #000000;
+    text-align: center;
 }
