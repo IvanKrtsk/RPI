@@ -210,6 +210,217 @@ h1,h2,h3,h4,h5,h6{
     border-color: cornflowerblue;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> eb17f5f18dee5307c57418e7fde181b11723216e
 /*Footer*/
 .footer{
     width: 2000px;
@@ -286,19 +497,42 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .bronze_plan {
+    padding-top: 50px;
+    text-align: center;
     color: #000000;
     font-size: 24px;
     font-weight: 400;
-    margin: 0 auto;
-    padding-top: 50px;
 }
 
 .bmonth_price {
     color: #000000;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.month {
     font-size: 24px;
     font-weight: 400;
-    margin: 0 auto;
-    padding-top: 50px;
+    color: #8492af;
+}
+
+.num{
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.sign {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.b_features {
+    color: #8492af;
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+    font-size: 18px;
+    list-style-type: none;
 }
 
 #rectangle1 {
@@ -306,7 +540,6 @@ h1,h2,h3,h4,h5,h6{
     height: 425px;
     background: #ffff;
     color: #000000;
-    text-align: center;
 }
 
 #rectangle2 {
@@ -314,7 +547,6 @@ h1,h2,h3,h4,h5,h6{
     height: 425px;
     background: #ffff;
     color: #000000;
-    text-align: center;
 }
 
 #rectangle3 {
@@ -322,5 +554,41 @@ h1,h2,h3,h4,h5,h6{
     height: 425px;
     background: #ffff;
     color: #000000;
+}
+
+.text_and_button {
+    display: flex;
+    margin: 0 auto;
+    left: 16%;
+    padding-top: 110px;
+    justify-content: space-between;
+    width: 885px;
+    height: 425px;
+    background-color: #fafbfb;
+}
+
+.join_text {
+    font-size: 18px;
+    font-weight: 400;
     text-align: center;
+    align-items: center;
+}
+
+.join_button{
+    padding-top: 70px;
+    margin: 0 auto;
+    width: 205px;
+    height: 50px;
+    background-color: #5584ff;
+    color: white;
+    font-size: 18px;
+    border-style: solid;
+    border-radius: 40px;
+    transition: background .2s linear, color .2s;
+}
+
+.join_button:hover{
+    background-color: #0e1a35;
+    color: cornflowerblue;
+    border-color: cornflowerblue;
 }
