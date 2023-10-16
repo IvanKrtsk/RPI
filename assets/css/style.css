@@ -134,6 +134,7 @@ h1,h2,h3,h4,h5,h6{
     width: 900px;
     height: 490px;
     margin: 0 auto;
+    bottom: 0;
     /*box-shadow: -10px 0px 50px rgb(85, 132, 255);*/
 }
 
@@ -208,6 +209,7 @@ h1,h2,h3,h4,h5,h6{
     color: cornflowerblue;
     border-color: cornflowerblue;
 }
+
 /*Footer*/
 .footer{
     width: 2000px;
