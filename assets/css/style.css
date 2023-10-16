@@ -91,7 +91,7 @@ h1,h2,h3,h4,h5,h6{
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .intro_inner{
@@ -104,16 +104,18 @@ h1,h2,h3,h4,h5,h6{
 .intro_title{
     font-size: 60px;
     font-weight: 300;
+    margin-bottom: 5px;
 }
 
 .intro_subtitle{
     font-size: 36px;
     color: #8492af;
-    margin: 10px;
+    margin-bottom: 88px;
 }
 
 .get_started_button{
     margin: 0 auto;
+    margin-bottom: 88px;
     width: 205px;
     height: 50px;
     background-color: #5584ff;
