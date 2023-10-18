@@ -157,6 +157,14 @@ h1,h2,h3,h4,h5,h6{
     margin: 0 auto;
 }
 
+.second_icons_container{
+    margin: 0 auto;
+    width: 1065px;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
 /*Title*/
 .second_title{
     font-size: 24px;
