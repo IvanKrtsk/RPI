@@ -423,6 +423,82 @@ h1,h2,h3,h4,h5,h6{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .psd_pricing {
     width: 100%;
     max-width: 2000px;
@@ -431,6 +507,7 @@ h1,h2,h3,h4,h5,h6{
     -webkit-background-size: cover;
     background-size: cover;
 }
+
 
 
 .powerfull_psd_template {
@@ -466,17 +543,35 @@ h1,h2,h3,h4,h5,h6{
     max-width: 2000px;
     width: 100%;
 }
-
-
 .psd_end {
     position: absolute;
     height: 625px;
-    max-width: 1470px;
+    max-width: 1395px;
     left: 305px;
+    right: 300px;
+}
+
+.psd_easy {
+    height: 305px;
+    width: 1395px;
+    text-align: right;
+}
+
+.psd_easy1 {
+    padding-top: 170px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.psd_easy2 {
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
 }
 
 .psd_clean {
-    height: 330px;
+    height: 300px;
     width: 345px;
 }
 
@@ -521,7 +616,6 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 400;
     height: 120px;
     padding-top: 50px;
-    background-color: yellow;
 }
 
 .bmonth_price {
