@@ -157,6 +157,14 @@ h1,h2,h3,h4,h5,h6{
     margin: 0 auto;
 }
 
+.second_icons_container{
+    margin: 0 auto;
+    width: 1065px;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
 /*Title*/
 .second_title{
     font-size: 24px;
@@ -304,17 +312,147 @@ h1,h2,h3,h4,h5,h6{
 
 
 
+/* ////////////////////////////////////////////////////////////// */
+
+/* Section */
+.section {
+    background-color: #fff;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 2000px;
+    height: 970px;
+
+}
+
+.section__container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.section__header {
+    width: 100%;
+    max-width: 689px;
+    margin-top: 43px;
+    
+}
+
+.section__title {
+    font-size: 60px;
+    font-weight: 100;
+    color: #0e1a35;
+    margin-bottom: 40px;
+}
+
+.section__text {
+    max-width: 590px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #8492af;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.section__point{
+    display: flex;
+    align-items: center;
+}
+
+.circle__check {
+    color: #5284ff;
+    height: 28px;
+    width: 28px;
+    margin-right: 19px;
+}
+
+.point__text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #5584ff;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.fa-regular {
+    width: auto;
+}
+
+.section__img {
+    height: 667px;
+    width: 1047px;
+    margin-top: 7%;
+}
+
+
+  /* Section 2 */
+.section2 {
+    /* background-color: #0e1a35; */
+    display: flex;
+    align-items: center;
+
+    width: 2000px;
+    height: 750px;
+    background-image: url(../images/Graph2.png), url(../images/Grid2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section2__container {
+    width: 1520px;
+    height: 411px;
+    border: 3px solid red;
+    margin-left: 143px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.container__inner {
+    width: 845px;
+    height: 410px;
+    border: 3px solid yellow;
+}
+
+.container__text {
+    width: 675px;
+    height: 411px;
+    border: 3px solid green;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.section2__header {
+    width: 100%;
+    max-width: 513px;
+}
+
+.section2__title {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.section2__text {
+    color: #8492af;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section2__cont {
+    width: 100%;
+    max-width: 985px;
+    /* display: flex; */
+    /* flex: 1; */
+    /* flex: 0 0 40%; */
+}
 
 
 
 
-
-
-
-
-
-
-
+/* ////////////////////////////////////////////////////////////////// */
 
 
 
