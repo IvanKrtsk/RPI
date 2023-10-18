@@ -423,6 +423,82 @@ h1,h2,h3,h4,h5,h6{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .psd_pricing {
     width: 100%;
     max-width: 2000px;
@@ -431,6 +507,7 @@ h1,h2,h3,h4,h5,h6{
     -webkit-background-size: cover;
     background-size: cover;
 }
+
 
 
 .powerfull_psd_template {
@@ -450,7 +527,6 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 300;
     text-align: center;
     padding-top: 185px;
-    background-color: green;
 }
 
 .pricing_container {
@@ -462,6 +538,77 @@ h1,h2,h3,h4,h5,h6{
     height: 425px;
 }
 
+.psd_begin {
+    height: 260px;
+    max-width: 2000px;
+    width: 100%;
+}
+.psd_end {
+    position: absolute;
+    height: 625px;
+    max-width: 1395px;
+    left: 305px;
+    right: 300px;
+}
+
+.psd_easy {
+    height: 305px;
+    width: 1395px;
+    text-align: right;
+}
+
+.psd_easy1 {
+    padding-top: 170px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.psd_easy2 {
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
+}
+
+.psd_clean {
+    height: 300px;
+    width: 345px;
+}
+
+.psd_clean1 {
+    padding-top: 170px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.psd_clean2 {
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
+}
+
+.psd_h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.psd_h2 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
+}
+
+.skip {
+    height: 105px;
+    max-width: 2000px;
+    width: 100%;
+}
+
 .plans {
     text-align: center;
     color: black;
@@ -469,17 +616,12 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 400;
     height: 120px;
     padding-top: 50px;
-    background-color: red;
-
-
 }
 
 .bmonth_price {
-    height: 115px;
-    padding-top: 0px;
+    height: 102px;
     color: #000000;
     text-align: center;
-    background-color: orange;
 }
 
 .month {
@@ -501,14 +643,17 @@ h1,h2,h3,h4,h5,h6{
 .b_features {
     color: #8492af;
     height: 135px;
-    line-height: 40px;
+    line-height: 41px;
     text-align: center;
     align-items: center;
     font-size: 18px;
     list-style-type: none;
+    margin-left: 15px;
 }
 
-
+.feature {
+    height: 40px;
+}
 
 .rectangle {
     width: 360px;
@@ -528,21 +673,24 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .join_text {
+    height: 120px;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
     align-items: center;
+    color: #8492af;
 }
 
 .join_button{
-    padding-top: 70px;
-    margin: 0 auto;
     width: 205px;
     height: 50px;
+    display: block;
+    margin: 0 auto;
     background-color: #5584ff;
     color: white;
     font-size: 18px;
-    border-style: solid;
+    font-weight: bold;
+    border-style: none;
     border-radius: 40px;
     transition: background .2s linear, color .2s;
 }
