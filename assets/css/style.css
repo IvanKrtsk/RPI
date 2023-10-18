@@ -660,20 +660,14 @@ h1,h2,h3,h4,h5,h6{
 
 
 
-
-
-
-
 .psd_pricing {
     width: 100%;
     max-width: 2000px;
     height: 2099px;
-    background: url("../images/PSD+Pricing.jpg") center no-repeat;
+    background: url("../images/last_2.jpg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
-
-
 
 .powerfull_psd_template {
     height: 967px;
@@ -693,6 +687,7 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     padding-top: 185px;
 }
+
 
 .pricing_container {
     display: flex;
@@ -907,4 +902,8 @@ h1,h2,h3,h4,h5,h6{
 
 .nav_link:hover{
     color: white;
+}
+
+.fa-brands fa-google-plus-g{
+    color: #8492af;
 }
