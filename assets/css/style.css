@@ -898,12 +898,14 @@ h1,h2,h3,h4,h5,h6{
     display: inline-block;
     vertical-align: center;
     align-items: center;
+    background-color: white;
 }
 
 .nav_link:hover{
     color: white;
 }
 
-.fa-brands fa-google-plus-g{
-    color: #8492af;
+.google {
+    color: green;
+    font-family: FontAwesome, serif;!important;
 }
