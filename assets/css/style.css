@@ -104,23 +104,24 @@ h1,h2,h3,h4,h5,h6{
 .intro_title{
     font-size: 60px;
     font-weight: 300;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 
 .intro_subtitle{
     font-size: 36px;
     color: #8492af;
-    margin-bottom: 88px;
+    margin-bottom: 80px;
 }
 
 .get_started_button{
     margin: 0 auto;
-    margin-bottom: 88px;
+    margin-bottom: 87px;
     width: 205px;
     height: 50px;
     background-color: #5584ff;
     color: white;
     font-size: 18px;
+    font-weight: bold;
     border-style: solid;
     border-radius: 40px;
     transition: background .2s linear, color .2s;
@@ -133,8 +134,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .screen1_container{
-    width: 900px;
-    height: 490px;
+    width: 882px;
+    height: 494px;
     margin: 0 auto;
     bottom: 0;
     /*box-shadow: -10px 0px 50px rgb(85, 132, 255);*/
@@ -152,8 +153,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .screen2_container{
-    width: 900px;
-    height: 130px;
+    width: 882px;
+    height: 128px;
     margin: 0 auto;
 }
 
