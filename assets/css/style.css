@@ -449,6 +449,7 @@ h1,h2,h3,h4,h5,h6{
 .progres__head {
     margin-bottom: 27px;
     display: flex;
+    align-items: center;
 }
 .progres__text {
     color: #fff;
@@ -461,6 +462,14 @@ h1,h2,h3,h4,h5,h6{
     font-size: 30.59px;
     font-weight: 600;
     margin: 0 24px;
+}
+
+.fa-chevron-right {
+    color: #8492af;
+    font-size: 23px;
+    margin: 0 left;
+    margin-left: 35%;
+    
 }
 
 .progres__task {
