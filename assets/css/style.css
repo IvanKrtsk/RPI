@@ -159,13 +159,13 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .space_container{
-    height: 135px;
+    height: 130px;
     width: 2000px;
 }
 
 .second_icons_container{
     margin: 0 auto;
-    width: 1080px;
+    width: 1055px;
     height: 85px;
     display: flex;
     justify-content: space-between;
@@ -192,7 +192,7 @@ h1,h2,h3,h4,h5,h6{
 
 /*Title*/
 .second_title{
-    margin-top: 60px;
+    margin-top: 52px;
     font-size: 24px;
     color: #0e1a35;
 }
@@ -206,12 +206,13 @@ h1,h2,h3,h4,h5,h6{
 
 /*Second subtitle*/
 .second_subtitle{
-    margin-top: 33px;
+    margin-top: 22px;
     font-size: 18px;
     color: #8492af;
 }
 
 .subtitle_align{
+    line-height: 29px;
     text-align: center;
 }
 
@@ -225,7 +226,7 @@ h1,h2,h3,h4,h5,h6{
 /*Second buttons*/
 .second_buttons_container{
     margin: 0 auto;
-    margin-top: 55px;
+    margin-top: 47px;
     width: 1245px;
     display: flex;
     justify-content: space-between;
@@ -233,6 +234,7 @@ h1,h2,h3,h4,h5,h6{
 
 .see_more_button{
     font-size: 18px;
+    font-weight: bold;
     color: #0e1a35;
     width: 250px;
     height: 50px;
