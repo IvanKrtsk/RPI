@@ -864,7 +864,7 @@ h1,h2,h3,h4,h5,h6{
 .footer{
     width: 100%;
     max-width: 2000px;
-    height: 150px;;
+    height: 150px;
     background-color: #0e1a35;
 }
 
@@ -884,8 +884,21 @@ h1,h2,h3,h4,h5,h6{
 
 /*Navigation footer*/
 .navigate {
+    display: flex;
+    gap: 50px;
+}
+.navigate1 {
     font-size: 18px;
-    gap: 50px 50px;
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: center;
+}
+
+.navigate2 {
+    font-size: 18px;
+    gap: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -898,14 +911,8 @@ h1,h2,h3,h4,h5,h6{
     display: inline-block;
     vertical-align: center;
     align-items: center;
-    background-color: white;
 }
 
 .nav_link:hover{
     color: white;
-}
-
-.google {
-    color: green;
-    font-family: FontAwesome, serif;!important;
 }
