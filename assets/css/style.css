@@ -786,7 +786,7 @@ h1,h2,h3,h4,h5,h6{
     position: absolute;
     height: 625px;
     max-width: 1395px;
-    left: 305px;
+    left: 307px;
     right: 300px;
 }
 
@@ -796,34 +796,34 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .psd_clean1 {
-    padding-top: 170px;
+    padding-top: 175px;
+    letter-spacing: 0.5px;
     font-size: 24px;
     font-weight: bold;
+    line-height: 22px;
 }
 
 .psd_clean2 {
-    padding-top: 40px;
+    word-spacing: 2px;
+    letter-spacing: 0;
+    padding-top: 5px;
     font-size: 18px;
     font-weight: 400;
     color: #8492af;
 }
 
 .psd_clean2_1 {
-    padding-top: 170px;
-    font-size: 24px;
-    font-weight: bold;
+    padding-top: 40px;
 }
 
 .psd_clean2_2 {
-    padding-top: 170px;
-    font-size: 24px;
-    font-weight: bold;
+    padding-top: 8px;
+    word-spacing: 0.35px;
+    letter-spacing: 0.4px;
 }
 
 .psd_clean2_3 {
-    padding-top: 170px;
-    font-size: 24px;
-    font-weight: bold;
+    padding-top: 8px;
 }
 
 .psd_easy {
@@ -833,37 +833,37 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .psd_easy1 {
-    padding-top: 170px;
+    padding-top: 164px;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 0.5px;
+    padding-right: 6px;
 }
 
 .psd_easy2 {
-    padding-top: 40px;
+    word-spacing: 2px;
+    letter-spacing: 0;
+    padding-top: 5px;
     font-size: 18px;
     font-weight: 400;
     color: #8492af;
 }
 
 .psd_easy2_1 {
-    height: 305px;
-    width: 1395px;
-    text-align: right;
+    padding-top: 37px;
+    padding-right: 7px;
 }
 
 .psd_easy2_2 {
-    padding-top: 170px;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
+    padding-top: 8px;
+    word-spacing: 0.35px;
+    letter-spacing: 0.4px;
+    padding-right: 4px;
 }
 
-.psd_easy2_2 {
-    padding-top: 40px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #8492af;
+.psd_easy2_3 {
+    padding-top: 8px;
+    padding-right: 8px;
 }
 
 .pricing {
@@ -877,7 +877,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 60px;
     font-weight: 300;
     text-align: center;
-    padding-top: 185px;
+    padding-top: 175px;
 }
 
 .pricing_container {
@@ -900,14 +900,17 @@ h1,h2,h3,h4,h5,h6{
     color: black;
     font-size: 24px;
     font-weight: 400;
-    height: 120px;
-    padding-top: 50px;
+    height: 106px;
+    padding-top: 43px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .bmonth_price {
     height: 102px;
     color: #000000;
     text-align: center;
+    padding-left: 8px;
 }
 
 .month {
@@ -916,7 +919,7 @@ h1,h2,h3,h4,h5,h6{
     color: #8492af;
 }
 
-.num{
+.num {
     font-size: 72px;
     font-weight: 700;
 }
@@ -927,6 +930,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .b_features {
+    padding-top: 13px;
     color: #8492af;
     height: 135px;
     line-height: 41px;
@@ -934,18 +938,9 @@ h1,h2,h3,h4,h5,h6{
     align-items: center;
     font-size: 18px;
     list-style-type: none;
-    margin-left: 15px;
-}
-
-.join_text_and_button {
-    display: flex;
-    margin: 0 auto;
-    left: 16%;
-    padding-top: 110px;
-    justify-content: space-between;
-    width: 885px;
-    height: 425px;
-    background-color: #fafbfb;
+    margin-left: 33px;
+    word-spacing: 2px;
+    letter-spacing: 0;
 }
 
 .skip {
@@ -964,21 +959,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .join_text1 {
-    height: 120px;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    align-items: center;
-    color: #8492af;
+    padding-left: 20px;
 }
 
 .join_text2 {
-    height: 120px;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    align-items: center;
-    color: #8492af;
+    padding-left: 16px;
+    padding-top: 5px;
 }
 
 
@@ -986,6 +972,7 @@ h1,h2,h3,h4,h5,h6{
     width: 205px;
     height: 50px;
     display: block;
+    align-items: center;
     margin: 0 auto;
     background-color: #5584ff;
     color: white;
@@ -1003,13 +990,15 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .footer{
+    position: absolute;
+    top: 5550px;
     width: 100%;
     max-width: 2000px;
     height: 150px;
     background-color: #0e1a35;
 }
 
-.footer_inner{;
+.footer_inner{ ;
     color: #8492af;
     display: flex;
     justify-content: space-between;
@@ -1020,13 +1009,14 @@ h1,h2,h3,h4,h5,h6{
     max-width: 1470px;
     margin: 0 auto;
     height: 20px;
-    padding-top: 70px;
+    padding-top: 65px;
 }
 
 /*Navigation footer*/
 .navigate {
+    padding-left: 22px;
     display: flex;
-    gap: 50px;
+    gap: 45px;
 }
 .navigate1 {
     font-size: 18px;
