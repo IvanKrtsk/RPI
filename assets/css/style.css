@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6{
 .header{
     width: 100%;
     position: absolute;
-    top: 67px;
+    top: 68px;
     left: 0;
     right: 0;
     z-index: 1000;
@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6{
 .navigation{
     display: flex;
     justify-content: space-between;
-    gap: 10px 43px;
+    gap: 10px 40px;
     align-items: center;
 }
 
@@ -52,9 +52,9 @@ h1,h2,h3,h4,h5,h6{
     color: #ffffff;
     background-color: #0e1a35;
     font-size: 18px;
+    letter-spacing: 0.5px;
     border: none;
     text-decoration: none;
-    display: inline-block;
     vertical-align: center;
     align-items: center;
 }
@@ -195,6 +195,7 @@ h1,h2,h3,h4,h5,h6{
 /*Title*/
 .second_title{
     margin-top: 52px;
+    letter-spacing: 0.5px;
     font-size: 24px;
     color: #0e1a35;
 }
@@ -209,6 +210,7 @@ h1,h2,h3,h4,h5,h6{
 /*Second subtitle*/
 .second_subtitle{
     margin-top: 22px;
+    letter-spacing: 0.4px;
     font-size: 18px;
     color: #8492af;
 }
@@ -488,7 +490,6 @@ h1,h2,h3,h4,h5,h6{
 
 /*Section 3*/
 
-
 .psd_pricing {
     width: 100%;
     max-width: 2000px;
@@ -754,20 +755,21 @@ h1,h2,h3,h4,h5,h6{
     justify-content: space-between;
 }
 
-.footer_container{
+.footer_container {
     width: 100%;
     max-width: 1470px;
     margin: 0 auto;
     height: 20px;
-    padding-top: 65px;
+    padding-top: 67px;
 }
 
 /*Navigation footer*/
 .navigate {
-    padding-left: 22px;
+    padding-left: 10px;
     display: flex;
-    gap: 45px;
+    gap: 43px;
 }
+
 .navigate1 {
     font-size: 18px;
     gap: 50px;
@@ -779,7 +781,7 @@ h1,h2,h3,h4,h5,h6{
 
 .navigate2 {
     font-size: 18px;
-    gap: 20px;
+    gap: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -792,6 +794,8 @@ h1,h2,h3,h4,h5,h6{
     display: inline-block;
     vertical-align: center;
     align-items: center;
+    letter-spacing: 0.5px;
+    padding-bottom: 2px;
 }
 
 .nav_link:hover{
