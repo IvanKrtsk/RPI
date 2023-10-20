@@ -42,15 +42,17 @@ h1,h2,h3,h4,h5,h6{
 
 /*Navigation header*/
 .navigation{
-    font-size: 18px;
     display: flex;
     justify-content: space-between;
-    gap: 10px 50px;
+    gap: 10px 43px;
     align-items: center;
 }
 
 .navigation_link{
     color: #ffffff;
+    background-color: #0e1a35;
+    font-size: 18px;
+    border: none;
     text-decoration: none;
     display: inline-block;
     vertical-align: center;
@@ -258,7 +260,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* Section */
 .section {
-    background-color: #f6f7fa;
+    background-color: white;
     display: flex;
     justify-content: right;
     align-items: center;
